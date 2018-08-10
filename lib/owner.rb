@@ -49,6 +49,7 @@ class Owner
     dogs.each do |dog|
       dog.mood = "happy"
     end
+    binding.pry
   end
   
   def play_with_cats
